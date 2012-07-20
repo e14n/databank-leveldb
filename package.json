@@ -9,7 +9,8 @@
     "description": "Abstraction layer for JSON storage",
     "dependencies": {
         "vows": "0.6.x", 
-        "leveldb": "*", 
+        "leveldb": "0.6.x", 
+        "rimraf": "2.0.x",
         "databank": "0.14.x"
     },
     "repository": { "type":  "git",
