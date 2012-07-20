@@ -6,11 +6,31 @@
     "scripts": {"test": "vows test/*-test.js"},
     "main": "./lib/index.js",
     "directories": {"lib": "./lib/"},
-    "description": "Abstraction layer for JSON storage",
+    "description": "LevelDB driver for Databank",
     "dependencies": {
-        "vows": "0.6.x", 
         "leveldb": "0.6.x", 
         "databank": "0.14.x"
+    },
+    "devDependencies": {
+        "vows": "0.6.x" 
+    },
+    "licenses": [
+        {
+           "type": "Apache-2.0",
+           "url": "http://www.apache.org/licenses/LICENSE-2.0"
+        }
+    ],
+     "keywords": [
+        "databank",
+        "leveldb",
+        "database", 
+        "json", 
+        "storage", 
+        "nosql" 
+     ],
+    "homepage": "http://github.com/evanp/databank-leveldb",
+    "bugs": {
+       "web": "http://github.com/evanp/databank-leveldb/issues"
     },
     "repository": { "type":  "git",
                     "url":   "http://github.com/evanp/databank-leveldb.git" }
