@@ -20,7 +20,7 @@ var assert = require('assert'),
     vows = require('vows'),
     databank = require('databank'),
     Databank = databank.Databank,
-    LevelDBDatabank = require('../lib/index');
+    LevelDBDatabank = require('../lib/leveldb');
 
 Databank.register('leveldb', LevelDBDatabank);
 
