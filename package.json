@@ -8,7 +8,7 @@
     "directories": {"lib": "./lib/"},
     "description": "LevelDB driver for Databank",
     "dependencies": {
-        "leveldb": "0.6.x", 
+        "leveldb": "0.7.x", 
         "databank": "0.14.x"
     },
     "devDependencies": {
