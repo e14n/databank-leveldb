@@ -24,6 +24,6 @@ var assert = require('assert'),
 
 Databank.register('leveldb', LevelDBDatabank);
 
-var suite = databank.DriverTest('leveldb', {mktmp: true});
+var suite = databank.DriverTest('leveldb', {file: '/tmp/leveldb-driver-test'});
 
 suite['export'](module);
