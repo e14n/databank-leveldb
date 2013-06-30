@@ -14,6 +14,7 @@
   },
   "description": "LevelDB driver for Databank",
   "dependencies": {
+    "underscore-contrib": "0.1.x",
     "databank": "~0.18.2",
     "levelup": "~0.9.0",
     "leveldown": "~0.5.0"
