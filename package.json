@@ -1,10 +1,10 @@
 {
   "name": "databank-leveldb",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "engines": {
     "node": ">=0.6.x"
   },
-  "author": "Evan Prodromou <evan@status.net>",
+  "author": "Evan Prodromou <evan@e14n.com>",
   "scripts": {
     "test": "vows test/*-test.js"
   },
@@ -35,12 +35,12 @@
     "storage",
     "nosql"
   ],
-  "homepage": "http://github.com/evanp/databank-leveldb",
+  "homepage": "http://github.com/e14n/databank-leveldb",
   "bugs": {
-    "web": "http://github.com/evanp/databank-leveldb/issues"
+    "web": "http://github.com/e14n/databank-leveldb/issues"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/evanp/databank-leveldb.git"
+    "url": "http://github.com/e14n/databank-leveldb.git"
   }
 }
