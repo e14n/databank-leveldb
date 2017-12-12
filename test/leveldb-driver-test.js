@@ -16,14 +16,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-var assert = require('assert'),
-    vows = require('vows'),
-    databank = require('databank'),
+var databank = require('databank'),
     Databank = databank.Databank,
-    LevelDBDatabank = require('../lib/leveldb');
+    LevelDBDatabank = require('../lib/leveldb')
 
-Databank.register('leveldb', LevelDBDatabank);
+Databank.register('leveldb', LevelDBDatabank)
 
-var suite = databank.DriverTest('leveldb', {mktmp: true});
+var suite = databank.DriverTest('leveldb', {mktmp: true})
 
-suite['export'](module);
+suite['export'](module)
