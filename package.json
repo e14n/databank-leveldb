@@ -14,13 +14,13 @@
   },
   "description": "LevelDB driver for Databank",
   "dependencies": {
-    "underscore-contrib": "0.1.x",
-    "databank": "~0.18.2",
+    "databank": "^1.0.1",
+    "leveldown": "~1.4.6",
     "levelup": "~1.3.2",
-    "leveldown": "~1.4.6"
+    "underscore-contrib": "^0.3.0"
   },
   "devDependencies": {
-    "vows": "0.7.x"
+    "vows": "^0.8.1"
   },
   "licenses": [
     {
